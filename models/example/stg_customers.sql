@@ -7,4 +7,4 @@ WITH stg_customers AS (
     FROM raw.customer
 )
 
-SELECT * FROM dbt_aajoykumar.stg_customers;
+SELECT * FROM `gcp-project1-459604`.dbt_aajoykumar.stg_customers;
